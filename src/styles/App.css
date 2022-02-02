@@ -9,7 +9,7 @@
 .app__memeSelector{
   display: flex;
   /* max-width: 500px; */
-  background-color: rgb(60, 61, 61);
+  background-color: rgba(60, 61, 61, 0.0);
   justify-content: center;
 }
 
