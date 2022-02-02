@@ -16,9 +16,11 @@ const MemeContainer = ({ url , title}) => {
             onChange={(e) => {
               textArray[i] = e.target.value;
               setTextArray(textArray);
+              
             }}
             key={i}
             defaultValue={text}
+            className="meme__inputText"
           />
           <br />
         </div>
